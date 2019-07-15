@@ -78,7 +78,7 @@ mvn clean
 before running in the other mode.
 
 # Running in Eclipse or IntelliJ
-As both IDEs support running Spring Boot applications you just have to import the project and select `com.vaadin.starter.bakery.Application` as main class if not done automatically. Using an IDE will also allow you to speed up development even more. Just check https://vaadin.com/blog/developing-without-server-restarts.
+As both IDEs support running Spring Boot applications you just have to import the project and select `com.packagename.myapp.Application` as main class if not done automatically. Using an IDE will also allow you to speed up development even more. Just check https://vaadin.com/blog/developing-without-server-restarts.
 
 ## IntelliJ < 2018
 Unfortunately, up to IntelliJ 2017 dependencies scoped as `provided` in the Maven POM will not be loaded on startup. As a workaround you will have to remove the scope definition of `spring-boot-starter-tomcat` and `javax.servlet-api` from the pom.xml.
