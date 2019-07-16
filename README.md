@@ -1,3 +1,8 @@
+
+![](media/Capture.png)
+![](media/Capture2.png)
+![](media/Capture3.png)
+
 # Running the Project in Development Mode
 
 `mvn spring-boot:run`
